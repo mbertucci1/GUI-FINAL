@@ -1,0 +1,38 @@
+  Name: Michael Bertucci
+  Email: Michael_Bertucci@student.uml.edu
+  UMass Lowell, COMP.4610 GUI Programming I
+  Created: Dec. 11, 2017
+  Final Project
+
+
+The project was to develop a personal page to display a gallery of photos/images 
+(this is the professor's project idea). I based my approach on the criteria in the 
+assignment description. I tried to find libraries that would help with some of the
+more complicated features, like a a list that can be reorganized by dragging and 
+dropping (I used Muuri), a way to upload images to a server via file dialog and
+dragging/dropping (I used DropzoneJS), and a way to perform image processing
+(I found CamanJS after failed attemps with other libraries like Jimp and fabricjs).
+
+I did not copy any code wholesale from another source.
+
+Parts of the code that were modified from elsewhere:
+
+1. Code for constructing the Muuri object (the drag-n-drop grid) was 
+   modified from their demo at https://haltu.github.io/muuri/
+
+2. The sorting algorithm used for restoring the saved order or the grid
+   items upon page load was modified from georg's answer on
+   https://stackoverflow.com/questions/13304543/javascript-sort-array-based-on-another-array
+
+3. The html template and basic structure of the function to create and control the 
+   image editing dialog were modified from the tutorial at
+   https://code.tutsplus.com/tutorials/build-a-canvas-image-editor-with-canvas--net-18143
+
+   NOTE!
+   I could not get the actual image editing to work. I tried several different
+   libraries and each attempt yielded errors that I was unable to resolve. 
+   
+   I finally stumbled upon CamanJS which I was able to make use of for some of 
+   the operations, like brightness and cropping, but by that point I didn't have time
+   to build all the controls for the user to change those values, so I hardcoded 
+   some values just to demonstrate the functionality.

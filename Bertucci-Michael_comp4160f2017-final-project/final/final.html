@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!--
+  Name: Michael Bertucci
+  Email: Michael_Bertucci@student.uml.edu
+  UMass Lowell, COMP.4610 GUI Programming I
+  Created: Dec. 11, 2017
+  Final Project
+
+  Sources:
+  https://haltu.github.io/muuri/  for drag/drop list feature
+  -->
+
+<html>
+
+<head>
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Lightbox Library (script loaded in body) -->
+    <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+
+    <!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <!-- jQuery UI Library -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- CamanJS Image Library -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/camanjs/4.0.0/caman.full.min.js"></script>
+
+    <!-- Muuri Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.3/muuri.js"></script>
+
+    <!-- Dropzone Library -->
+    <link rel="stylesheet" href="dropzone-dist/dropzone.css" />
+    <script src="dropzone-dist/dropzone.js"></script>
+
+    <!-- My Stuff -->
+    <link rel="stylesheet" href="css/final.css" />
+    <script src="final.js"></script>
+
+</head>
+
+<body>
+
+    <h1 class="page-title">Welcome!</h1>
+
+    <form action="http://weblab.cs.uml.edu/~mbertucc/final/upload.php" class="dropzone" id="upload-dropzone">
+        <div class="dz-message">
+            Drop files here or click to upload
+        </div>
+    </form>
+
+    <div class="grid">
+
+    </div>
+
+    <script src="lightbox2-master/dist/js/lightbox.js"></script>
+</body>
+
+</html>

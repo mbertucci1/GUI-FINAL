@@ -1,0 +1,49 @@
+  Name: Michael Bertucci
+  Email: Michael_Bertucci@student.uml.edu
+  UMass Lowell, COMP.4610 GUI Programming I
+  Created: Dec. 13, 2017
+  Final Project
+
+
+
+
+Start the app by visiting the web page at:
+  http://weblab.cs.uml.edu/~mbertucc/final/final.html
+
+
+1. Click on the upload area to open the file selection dialog to select an image file.
+   Alternatively, you can drag and drop a file into the upload area.
+
+   The upload area will show the progress of each image as it uploads to the server.
+   After a new image has finished uploading, its thumbnail will disappear from the upload area and
+   the image will be automatically added to the gallery list (it is added at the bottom, so you may
+   need to scroll down to see it if there are already several images in the gallery).
+
+   If the image failed to upload (for instance, if the file size exceeded the limit), it will remain
+   in the upload area to display the error. Refreshing the page will clear it from the view.
+
+2. You can drag the gallery items to reorder them. The order will be remembered and restored to how you
+   left it when you reload the page.
+
+3. The gallery items present scaled-down views of each image. Click on an image to view the full sized
+   image on the screen.
+
+4. Clicking the 'Delete' button will delete the image from the gallery and remove the 
+   file from the server.
+
+5. Clicking the 'Share' button will allow you to post the image to Facebook, and will also provide a
+   direct hyperlink to the image on the server.
+
+6. Clicking the 'Edit' button is will to allow you to manipulate the image in various ways 
+   and save the changes (or is supposed to - see below).
+   
+   However, due to production difficulties several of these features are broken or limited in 
+   their functionality.
+   At the time of writing this,
+     - Converting the image to grayscale works like a charm
+     - Changing the brightness, contrast, and cropping the image essentially perform demos of their
+       functions but I was unable to implement the full controls.
+     - I could not get the save or rotate features to work at all.
+
+And that concludes this user manual. Overall the app is pretty simple and easy to use.
+
