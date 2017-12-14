@@ -39,6 +39,8 @@ Parts of the code that were modified from elsewhere:
 
 # User Manual
 
+![Screenshot](screenshot.png)
+
 Start the app by visiting the web page at:
   http://weblab.cs.uml.edu/~mbertucc/final/final.html
 
